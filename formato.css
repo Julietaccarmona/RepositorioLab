@@ -6,48 +6,44 @@ body {
     border: 1px solid rgb(0, 0, 0);
   }
   
-  h1 {
+h1 {
     text-align: center;
     color: rgba(207, 10, 69, 0.747);
     font-size: 4em;
   }
-  h2 {
+
+h2 {
     text-align: center;
     font-size: 2em;
   }
-  h3 {
+
+h3 {
     text-align: left;
     font-size: 1em;
-  }
-  div {
+}
+
+div {
     width: auto;
     background-color: rgb(56, 53, 197);
     margin: auto;
     border: solid coral;
-  }
-  h4 {
+}
+
+h4, h5, h6 {
     font-size: 2em;
     text-align: center;
-  }
-  h5 {
-    text-align: center;
-    font-size: 2em;
-  }
-  h6 {
-    text-align: center;
-    font-size: 2em;
-  }
-  h6 {
-    text-align: center;    
-    font-size: 1em;
-  }
-  p {
+}
+
+img {
+    text-align: center;   
+}
+
+p {
     color: black;
     font-size: 1em;
-  }
+}
   
-  footer {
+footer {
     text-align: center;
-  }
-
+}
  
