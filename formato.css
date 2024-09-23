@@ -35,7 +35,8 @@ h4, h5, h6 {
 }
 
 img {
-    text-align: center;   
+    display: block;
+    margin: auto;
 }
 
 p {
