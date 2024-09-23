@@ -19,8 +19,10 @@ body {
     text-align: left;
     font-size: 1em;
     div {
-      width: auto
-      background-color: rgba(207, 10, 69, 0.747);
+      width: auto;
+      background-color: rgb(56, 53, 197);
+      margin: auto;
+      border: solid coral;
     };
   }
   h4 {
