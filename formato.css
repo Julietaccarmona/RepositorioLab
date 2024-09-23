@@ -16,7 +16,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: aliceblue;
   }
 
@@ -26,11 +26,11 @@ h1 {
     margin: auto;
     border: solid rgb(0, 0, 0);
     text-align: left;
-    font-size: 2em;
+    font-size: 1em;
     color: aliceblue;
 }
 nav {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 h4, h5, h6 {
