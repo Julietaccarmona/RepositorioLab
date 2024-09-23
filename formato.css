@@ -1,0 +1,29 @@
+
+body {
+    text-align: justify;
+    padding: 50px;
+    background-color: rgb(236, 187, 224);
+    color: rgb(100, 38, 76);
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgba(207, 10, 69, 0.747);
+    font-size: 3em;
+  }
+  h2 {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
+  p {
+    color: black;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+ 
