@@ -7,7 +7,7 @@ body {
   }
 
 .div1 {
-  width: max-content;
+  width: auto;
   background-color: aliceblue;
   text-align: center;
   color: rgba(207, 10, 69, 0.747);
@@ -28,9 +28,9 @@ h1 {
     text-align: left;
     font-size: 1em;
     color: aliceblue;
-}
-nav {
+  nav {
   font-size: 1em;
+  }
 }
 
 h4, h5, h6 {
