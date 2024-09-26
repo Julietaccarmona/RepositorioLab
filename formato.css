@@ -47,6 +47,7 @@ h4 main, h5 main, h6 main{
 
 h4 p, h5 p, h6 p {
     color: black;
+    font-size: 1em;
     background-color: aliceblue;
     border: 2px solid rgba(207, 10, 69, 0.747);
     padding: 10px;
