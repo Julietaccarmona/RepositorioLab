@@ -41,13 +41,13 @@ h4, h5, h6 {
     text-align: center;
     width: fit-content;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: 15px;
+    margin: 20px auto;
     box-shadow: 0 0 4px 1px rgb(238, 238, 238);
 }
 
 img {
     display: block;
-    margin: 15px;
+    margin: 20px auto;
 }
 
 p {
