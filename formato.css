@@ -38,10 +38,10 @@ h1 {
 
 h4 {
     font-size: 2em;
-    text-align: left;
+    text-align: center;
     width: 75%;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: 0 auto;
+    margin: 10px;
     padding: 1px 10px;
     height: auto;
     box-shadow: 0 0 4px 1px rgb(238, 238, 238);
@@ -54,7 +54,7 @@ h4 + p {
     background-color: aliceblue;
     border: 2px solid rgba(207, 10, 69, 0.747);
     padding: 10px;
-    margin: 0 auto;
+    margin: 10px;
     margin-top: 10px;
 }
 img {
