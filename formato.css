@@ -41,7 +41,8 @@ h4 {
     text-align: center;
     width: 100%;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: 20px auto;
+    margin: 20px 0;
+    padding: 10px;
     box-shadow: 0 0 4px 1px rgb(238, 238, 238);
 }
 
@@ -52,7 +53,7 @@ h4 + p {
     background-color: aliceblue;
     border: 2px solid rgba(207, 10, 69, 0.747);
     padding: 10px;
-    margin: 20px auto;
+    margin: 0 auto;
     margin-top: 10px;
 }
 img {
