@@ -51,6 +51,50 @@ h2 {
   font-size: 4em;
   margin: 0px 0;
   padding: 10px;
+  h3 {
+    font-size: 2em;
+    color:black;
+    text-align: center;
+    width: 75%;
+    background-color: rgba(207, 10, 69, 0.747);
+    margin: 10px auto;
+    padding: 1px 10px;
+    height: auto;
+    box-shadow: 0 0 4px 1px rgb(238, 238, 238);
+  }
+  h3 + p {
+    color: black;
+    font-size: 1em;
+    width: 75%;
+    background-color: aliceblue;
+    border: 2px solid rgba(207, 10, 69, 0.747);
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: 10px;
+  }
+}
+
+h3 {
+  font-size: 2em;
+  color:black;
+  text-align: center;
+  width: 75%;
+  background-color: rgba(207, 10, 69, 0.747);
+  margin: 10px auto;
+  padding: 1px 10px;
+  height: auto;
+  box-shadow: 0 0 4px 1px rgb(238, 238, 238);
+}
+
+h3 + p {
+  color: black;
+  font-size: 1em;
+  width: 75%;
+  background-color: aliceblue;
+  border: 2px solid rgba(207, 10, 69, 0.747);
+  padding: 10px;
+  margin: 10px auto;
+  margin-top: 10px;
 }
 
 h4 {
