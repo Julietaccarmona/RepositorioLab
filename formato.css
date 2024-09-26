@@ -4,6 +4,7 @@ body {
     background-color: rgb(236, 187, 224);
     color: rgb(100, 38, 76);
     border: 1px solid rgb(0, 0, 0);
+    line-height: 1.6;
   }
 
 .div1 {
