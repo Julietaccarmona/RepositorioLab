@@ -41,13 +41,13 @@ h4, h5, h6 {
     text-align: center;
     width: fit-content;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: auto;
+    margin: 15px;
     box-shadow: 0 0 4px 1px rgb(238, 238, 238);
 }
 
 img {
     display: block;
-    margin: auto;
+    margin: 15px;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
   
 footer {
     text-align: center;
-    margin-top: auto;
+    margin-top: 30px;
     padding: 10px;
 }
  
