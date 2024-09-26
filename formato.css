@@ -24,15 +24,17 @@ h1 {
   }
 
 .div2 {
-    width: fit-content;
+    width: 25%;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: auto;
+    margin: 10px auto;
+    padding: auto;
     border: solid rgb(0, 0, 0);
-    text-align: left;
+    text-align: center;
     font-size: 1em;
     color: aliceblue;
   nav {
   font-size: 1em;
+  text-align: center;
   }
 }
 
