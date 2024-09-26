@@ -36,7 +36,7 @@ h1 {
   }
 }
 
-h4, h5, h6 {
+h4 main, h5 main, h6 main{
     font-size: 2em;
     text-align: center;
     width: fit-content;
