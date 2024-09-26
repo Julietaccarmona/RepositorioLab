@@ -30,7 +30,7 @@ h1 {
     padding: 2px auto;
     border: solid rgb(0, 0, 0);
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     color: aliceblue;
     nav {
   font-size: 1em;
@@ -38,8 +38,8 @@ h1 {
   }
 }
 .div2 + p {
-  font-size: 2em;
-  text-align: left;
+  font-size: 1em;
+  text-align: justify;
 }
 h4 {
     font-size: 2em;
