@@ -30,14 +30,17 @@ h1 {
     padding: 2px auto;
     border: solid rgb(0, 0, 0);
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
     color: aliceblue;
-  nav {
+    nav {
   font-size: 1em;
   text-align: justify;
   }
 }
-
+.div2 + p {
+  font-size: 2em;
+  text-align: left;
+}
 h4 {
     font-size: 2em;
     color:black;
