@@ -25,7 +25,7 @@ h1 {
   }
 
 .div2 {
-    width: auto;
+    width: fit-content;
     background-color: rgba(207, 10, 69, 0.747);
     margin: 10px auto;
     padding: 2px auto;
