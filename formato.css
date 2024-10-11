@@ -17,8 +17,8 @@ ul {
     display: inline-flex;
     width: auto;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: 10px auto;
-    padding: 2px auto;
+    margin: 30px 0;
+    padding: 20px;
     border: solid rgb(0, 0, 0);
     text-align: justify;
     font-size: 1.5em;
