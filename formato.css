@@ -14,14 +14,15 @@ body {
 }
 ul {
     list-style-type: none;
-    display: inline-flex;
-    width: auto;
+    display: flex;
+    width: 100%;
     background-color: rgba(207, 10, 69, 0.747);
-    margin: 30px 0;
-    padding: 20px;
+    margin: 0;
+    padding: 2px auto;
     border: solid rgb(0, 0, 0);
-    text-align: justify;
+    text-align: center;
     font-size: 1.5em;
+    justify-content: space-around;
     color: aliceblue;
   }
 
