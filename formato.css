@@ -15,8 +15,7 @@ body {
 ul {
     list-style-type: none;
     display: inline-flex;
-    margin: 0
-    width: 35%;
+    width: max-content;
     background-color: rgba(207, 10, 69, 0.747);
     margin: 10px auto;
     padding: 2px auto;
@@ -43,7 +42,7 @@ h1 {
   }
 
 .div2 {
-    width: 35%;
+    width: fit-content;
     background-color: rgba(207, 10, 69, 0.747);
     margin: 10px auto;
     padding: 2px auto;
