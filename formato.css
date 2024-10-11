@@ -15,12 +15,12 @@ body {
 ul {
     list-style-type: none;
     display: inline-flex;
-    width: 90%;
+    width: auto;
     background-color: rgba(207, 10, 69, 0.747);
     margin: 10px auto;
     padding: 2px auto;
     border: solid rgb(0, 0, 0);
-    text-align: center;
+    text-align: justify;
     font-size: 1.5em;
     color: aliceblue;
   }
