@@ -14,6 +14,7 @@ body {
 }
 ul {
     list-style-type: none;
+    display: inline-flex;
     margin: 0
     width: 35%;
     background-color: rgba(207, 10, 69, 0.747);
