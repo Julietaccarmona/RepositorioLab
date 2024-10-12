@@ -98,7 +98,12 @@ h3 + p {
 h4 {
   text-align: center;
   font-size: 2em;
-  color: black;
+  background-color: rgba(207, 10, 69, 0.747);
+  margin: 10px auto;
+  padding: 2px auto;
+  border: solid rgb(0, 0, 0);
+  color: aliceblue;
+  width: fit-content;
 }
 
 table {
@@ -115,6 +120,7 @@ th {
   padding: 10px;
   background-color: rgba(207, 10, 69, 0.747);
   color: black;
+  font-size: 1.5em;
 }
 
 td {
