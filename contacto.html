@@ -19,43 +19,43 @@
     <section>
   
       <form action="" method="post">
-        <p><label for="POST-name">Nombre:</label>
-        <input id="POST-name" type="text" name="name" maxlength="20" required></p>
+        <p><label for="POST-name">Nombre (requerido):</label>
+        <input id="POST-name" type="text" name="Nombre" maxlength="20" required></p>
 
         <p><label for="POST-apellido">Apellido:</label>
-        <input id="POST-apellido" type="text" apellido ="apellido" maxlength="20" />
+        <input id="POST-apellido" type="text" name ="Apellido" maxlength="20" />
         </p>
 
-        <p><label for="POST-Email">E-mail:</label>
-        <input id="POST-Email" type="email" e-mail ="e-mail" required/>
+        <p><label for="POST-Email">E-mail (requerido):</label>
+        <input id="POST-Email" type="email" name ="E-mail" required/>
         </p>
 
         <p><label for="POST-Telefono">Teléfono:</label>
-        <input id="POST-Telefono" type="tel" telefono ="telefono" placeholder="Ej: +542920202020" 
+        <input id="POST-Telefono" type="tel" name ="Telefono" placeholder="Ej: +542920202020" 
           onfocus="this.placeholder = ''" />
         </p>
 
         <p><label for="POST-edad">Edad: </label>
-        <input id="POST-edad" type="number" edad="edad" min="16" max="120" />
+        <input id="POST-Edad" type="number" name="Edad" min="16" max="120" />
         </p>
 
         <p><label for="POST-direccion">Dirección: </label>
-        <input id="POST-direccion" type="text" direccion="direccion" />
+        <input id="POST-Direccion" type="text" name="Direccion" />
         </p>
 
-        <p><label for="POST-provincia">Provincia: </label>
-        <input list ="Provincias patagónicas" id="POST-provincia" type="text" provincia="provincia" />
+        <p><label for="POST-Provincia">Provincia: </label>
+        <input list ="Provincias patagónicas" id="POST-provincia" type="text" name="Provincia" />
         <datalist id="Provincias patagónicas">
-          <option> value = "Neuquén" </option>
-          <option> value = "Río Negro" </option>
-          <option> value = "Chubut" </option>
-          <option> value = "Santa Cruz" </option>
-          <option> value = "Tierra del Fuego" </option>
+          <option> Neuquén </option>
+          <option> Río Negro </option>
+          <option> Chubut </option>
+          <option> Santa Cruz </option>
+          <option> Tierra del Fuego </option>
         </datalist>
         </p>
 
         <p><label for="POST-CodigoPostal">Código Postal: </label>
-        <input id="POST-CodigoPostal" type="text" CodigoPostal="CodigoPostal" pattern="[A-Z]\d{4}[A-Z]{3}"/>
+        <input id="POST-CodigoPostal" type="text" name="CodigoPostal" pattern="[A-Z]\d{4}[A-Z]{3}"/>
         </p>
     
 
@@ -90,8 +90,57 @@
         </fieldset>
       </form>
       
-
     </section>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Ítem</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>Nombre</td>
+          <td>id= "POST-name" </td>
+        </tr>
+
+        <tr>
+          <td>Apellido</td>
+          <td>id= "POST-apellido" </td>
+        </tr>
+
+        <tr>
+          <td>E-mail</td>
+          <td>id= "POST-Email" </td>
+        </tr>
+
+        <tr>
+          <td>Telefono</td>
+          <td>id= "POST-Telefono" </td>
+        </tr>
+        
+
+        <tr>
+          <td>Edad</td>
+          <td>id= "POST-Edad" </td>
+        </tr>
+
+        <tr>
+          <td>Direccion</td>
+          <td>id= "POST-Direccion" </td>
+        </tr>
+        
+        <tr>
+          <td> Provincia </td>
+          <td> id= "POST-Provincia" </td>
+        </tr>
+
+      </tbody>
+      
+    </table>
+
     <footer>
       <p>©Copyright 2024. UNCOMA, CURZA. Monseñor Esandi y Ricardo Balbín. Viedma, Río Negro. Todos los derechos reservados.</p>
     </footer>
