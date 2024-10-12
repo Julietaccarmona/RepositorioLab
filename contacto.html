@@ -27,10 +27,10 @@
       <!-- Formulario simple que enviará una petición POST -->
       <form action="" method="post">
         <p><label for="POST-name">Nombre (requerido):</label>
-        <input id="POST-name" type="text" name="name" ></p>
+        <input id="POST-name" type="text" name="name" maxlength="20"></p>
 
         <p><label for="POST-apellido">Apellido:</label>
-        <input id="POST-apellido" type="text" apellido ="apellido" />
+        <input id="POST-apellido" type="text" apellido ="apellido" maxlength="20" />
         </p>
 
         <p><label for="POST-Email">E-mail (requerido):</label>
@@ -66,11 +66,11 @@
       <form action="" method="post">
         <fieldset>
           <legend>Método preferido de contacto</legend>
-          <input type="radio button" name="radio button" id="radio button" />
+          <input type="radio" name="radio" id="radio" />
           <label for="radio">Correo electrónico</label>
-          <input type="radio button" name="radio button" id="radio button" />
+          <input type="radio" name="radio" id="radio" />
           <label for="radio">Correo postal</label>
-          <input type="radio button" name="radio button" id="radio button" />
+          <input type="radio" name="radio" id="radio" />
           <label for="radio">Teléfono</label>
         </fieldset>
       </form>
