@@ -7,21 +7,30 @@
     <meta name="viewport" content="width=device-width" />
       
     <title>Contacto </title>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="contacto.html">Contacto</a></li> 
+      <li><a href="acercademi.html">Acerca de mí</a></li>
+    </ul>
   </head>
 
   <body>
     <header> Formulario de contacto </header>
     <section>
       <!-- Formulario simple que enviará una petición GET -->
-      <form action="">
+      <!--<form action="">
         <label for="GET-name">Nombre:</label>
         <input id="GET-name" type="text" name="name" />
         <input type="submit" value="Save" />
-      </form>
+      </form>-->
 
       <!-- Formulario simple que enviará una petición POST -->
       <form action="" method="post">
         <label for="POST-name">Nombre:</label>
+        <input id="POST-name" type="text" name="name" />
+        <input type="submit" value="Save" />
+
+        <label for="POST-name">Apellido:</label>
         <input id="POST-name" type="text" name="name" />
         <input type="submit" value="Save" />
       </form>
