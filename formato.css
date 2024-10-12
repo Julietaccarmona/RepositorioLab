@@ -101,3 +101,25 @@ footer {
     padding: 10px;
     margin-bottom: 0%;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: fit-content;
+  border: 1px solid cornsilk;
+}
+
+th {
+  text-align: center;
+  border: 1px solid cornsilk;
+  padding: 10px;
+  background-color: rgba(207, 10, 69, 0.747);
+
+}
+
+td {
+  text-align: justify;
+  border: 1px solid cornsilk;
+  padding: 5px;
+
+}
