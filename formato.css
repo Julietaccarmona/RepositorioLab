@@ -95,6 +95,12 @@ h3 + p {
   margin-top: 10px;
 }
 
+h4 {
+  text-align: center;
+  font-size: 1em;
+  color: black;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -107,6 +113,7 @@ th {
   border: 1px solid cornsilk;
   padding: 10px;
   background-color: rgba(207, 10, 69, 0.747);
+  color: black;
 }
 
 td {
