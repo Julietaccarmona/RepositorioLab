@@ -42,29 +42,58 @@ body {
     line-height: 1.6;
     margin: 0;
     margin-top: 80px;
-  }
-
-  p {
-    color: black;
-    font-size: 1em;
+    font-family: "Playfair Display", serif;
+  
+    p {
+      color: black;
+      font-size: 1em;
+    }
+   
 }
 
 
 .div1 {
-  width: auto;
-  background-color: aliceblue;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   color: rgba(207, 10, 69, 0.747);
   font-size: 4em;
   margin: 30px 0;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+h {
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;  
 }
 
 h1 {
-    text-align: center;
-    font-size: 2em;
-    color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+
+.logo {
+  width: 10%; 
+  height: auto;
+  margin-left: 10px; 
+  animation: girar 2s infinite;
+}
+
+@keyframes girar {
+  0% {
+      transform: rotateY(0deg);
   }
+  100% {
+      transform: rotateY(360deg);
+  }
+}
 
 
 h2 {
@@ -148,4 +177,37 @@ footer {
   margin-top: 30px;
   padding: 10px;
   margin-bottom: 0%;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px; /* Espacio desde la parte inferior */
+  right: 20px; /* Espacio desde la parte derecha */
+  width: 50px; /* Ancho del círculo */
+  height: 50px; /* Alto del círculo */
+  background-color: rgba(207, 10, 69, 0.747); /* Color de fondo */
+  color: white; /* Color de la flecha */
+  border-radius: 50%; /* Hace que el círculo sea redondo */
+  display: flex; /* Usar flexbox para centrar el contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  font-size: 1.5em; /* Tamaño de la flecha */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra del círculo */
+  transition: background-color 0.3s; /* Transición suave para el color */
+}
+
+.scroll-to-top:hover {
+  background-color: rgba(255, 0, 0, 0.8); /* Cambia el color al pasar el mouse */
+}
+
+
+.sticky-header {
+  position: sticky; /* Hacer que el encabezado se mantenga en la parte superior */
+  top: 0; /* Posición desde el borde superior */
+  background-color: rgba(207, 10, 69, 0.747); /* Fondo del encabezado */
+  color: white; /* Color del texto */
+  font-size: 1.5em; /* Tamaño de la fuente */
+  padding: 10px; /* Espaciado interno */
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
 }
