@@ -66,7 +66,7 @@
         </p>
 
         <p><label for="POST-CodigoPostal">Código Postal: </label>
-        <input id="POST-CodigoPostal" type="text" name="codigoPostal" pattern="[A-Z]\d{4}[A-Z]{3}"/>
+        <input id="POST-CodigoPostal" type="number" name="codigoPostal"/>
         </p>
     
 
@@ -113,47 +113,47 @@
           
           <tr>
             <td>Nombre</td>
-            <td></td>
+            <td id="nombreCelda"></td>
           </tr>
 
           <tr>
             <td>Apellido</td>
-            <td></td>
+            <td id="apellidoCelda"></td>
           </tr>
 
           <tr>
             <td>E-mail</td>
-            <td></td>
+            <td id="emailCelda"></td>
           </tr>
 
           <tr>
             <td>Teléfono</td>
-            <td></td>
+            <td id="telefonoCelda"></td>
           </tr>
           
           <tr>
             <td>Edad</td>
-            <td></td>
+            <td id="edadCelda"></td>
           </tr>
 
           <tr>
             <td>Dirección</td>
-            <td></td>
+            <td id="direccionCelda"></td>
           </tr>
           
           <tr>
             <td> Provincia </td>
-            <td></td>
+            <td id="provinciaCelda"></td>
           </tr>
 
           <tr>
             <td>Método preferido de contacto</td>
-            <td></td>
+            <td id="metodoCelda"></td>
           </tr>
 
           <tr>
             <td>Tipo de suscripción</td>
-            <td></td>
+            <td id="suscripcionCelda"></td>
           </tr>
 
         </tbody>
@@ -168,6 +168,8 @@
     <footer>
       <p>©Copyright 2024. UNCOMA, CURZA. Monseñor Esandi y Ricardo Balbín. Viedma, Río Negro. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
 

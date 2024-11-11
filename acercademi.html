@@ -1,65 +1,97 @@
-<head>
-  <link rel="stylesheet" href="formato.css">
-</head>
-<title>Mi primera página web personal </title>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contacto.html">Contacto</a></li> 
-        <li><a href="acercademi.html">Acerca de mí</a></li>
-      </ul>
-    </nav>
-  </header>
+<!doctype html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="formato.css">
+  </head>
+  <title>Mi primera página web personal </title>
+  <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li> 
+            <li><a href="acercademi.html">Acerca de mí</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <h2>
-    <div class="sticky-header">Mi perfil personal</div>
-    <img src="juli.jpeg" 
-    width="290.5"
-    height="387.5"/>
-  </h2>
-  <main>
-    <article id="acerca-de-mi">
-      <h3>Acerca de mí</h3>
-      <p>
-        Hola a todas y todos! Mi nombre es Julieta Carmona, tengo 25 años, nací y resido actualmente en Viedma.
-        Viví en Tandil (pcia de Buenos Aires) durante 5 años, allí cursé y finalicé mis estudios universitarios en
-        la Universidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN).
-        Luego volví a Viedma por motivos laborales. Si bien fue un gran cambio volver, hoy disfruto mucho de mi familia,
-        de mi perrita Shaki 🐶, de mis amistades y de las playas que tenemos cerca 🌊.
+      <h2>
+        <div class="sticky-header">Mi perfil personal</div>
+        <img src="juli.jpeg" 
+        width="290.5"
+        height="387.5"/>
+      </h2>
+      <main>
+        <article id="acerca-de-mi">
+          <h3>Acerca de mí</h3>
+          <p>
+            Hola a todas y todos! Mi nombre es Julieta Carmona, tengo 25 años, nací y resido actualmente en Viedma.
+            Viví en Tandil (pcia de Buenos Aires) durante 5 años, allí cursé y finalicé mis estudios universitarios en
+            la Universidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN).
+            Luego volví a Viedma por motivos laborales. Si bien fue un gran cambio volver, hoy disfruto mucho de mi familia,
+            de mi perrita Shaki 🐶, de mis amistades y de las playas que tenemos cerca 🌊.
+            
+          </p>
+          
+          <section>
+            <h3>Perfil académico y profesional</h3>
+            <p>
+              Me gradué en mayo del 2023, soy Licenciada en Relaciones Internacionales 🌎 y desde el principio hasta el final, amé la carrera.
+              También me interesan los idiomas y todo lo concerniente al intercambio cultural. Desde antes de graduarme, 
+              trabajo como profesora de inglés, trabajé un tiempo en un instituto de Viedma y actualmente trabajo freelance
+              para un instituto de idiomas del exterior. Me encanta poder conectar con personas de todo el mundo y más aún
+              si es a través de la enseñanza y el aprendizaje.
+            </p>
+            </section>
+
+            <section>
+            <h3>Mi interés en la actual carrera</h3>
+            <p>
+              Si bien mi corazón está en la disciplina de las Relaciones Internacionales, quise probarme en algo totalmente distinto, busqué un nuevo desafío. 
+              Me llamó la atención esta carrera al verla como una herramienta a futuro que podría ampliar mis horizontes laborales 
+              y permitirme seguir trabajando freelance.
+              Hasta el momento, me encuentro entusiasmada y aunque a veces llegan las frustraciones, en estos pocos meses he encontrado
+              compañeras/os que alivianan mucho esa carga y hacen de cada momento de estudio mucho más divertido!
+            </p>
+          </section>
+        </article>
+
+        <div class="div2" id="cv-completo" style="display: none;">
+          <h5>Currículum Vitae Completo</h5>
+          <p>EXPERIENCIA LABORAL
+
+              Graduada en Formación Docente 						     Desde 2023
+              Asignatura “Historia Económica y Social Argentina” de la Licenciatura en
+              Administración Pública. 
+              Universidad Nacional del Comahue, Viedma, Río Negro.
+              
+              Profesora de inglés freelance (en remoto) 					                2024
+              Instituto Edúcate. Hispanos Comunidad.
+              Greenville, Estados Unidos.
+              
+              Profesora de inglés									    2023
+              Escuela primaria “Instituto DAS”, Viedma, Río Negro. 	    		    
+              
+              Becaria “Becas EVC-CIN” del Consejo Interuniversitario Nacional. 	       2021-2022 
+              Lugar de trabajo: Centro de Estudios Interdisciplinarios en Problemáticas
+              Internacionales y Locales, Tandil, Argentina.
+          </p>
+            <!-- Añade aquí más contenido del CV según lo necesites -->
         
-      </p>
-      
-      <section>
-        <h3>Perfil académico y profesional</h3>
-        <p>
-          Me gradué en mayo del 2023, soy Licenciada en Relaciones Internacionales 🌎 y desde el principio hasta el final, amé la carrera.
-          También me interesan los idiomas y todo lo concerniente al intercambio cultural. Desde antes de graduarme, 
-          trabajo como profesora de inglés, trabajé un tiempo en un instituto de Viedma y actualmente trabajo freelance
-          para un instituto de idiomas del exterior. Me encanta poder conectar con personas de todo el mundo y más aún
-          si es a través de la enseñanza y el aprendizaje.
-        </p>
-        </section>
+        </div>
+          <!-- Botón "Leer más" -->
+          <button id="boton-leer-mas">Leer más</button>
+        
+        
 
-        <section>
-        <h3>Mi interés en la actual carrera</h3>
-        <p>
-          Si bien mi corazón está en la disciplina de las Relaciones Internacionales, quise probarme en algo totalmente distinto, busqué un nuevo desafío. 
-          Me llamó la atención esta carrera al verla como una herramienta a futuro que podría ampliar mis horizontes laborales 
-          y permitirme seguir trabajando freelance.
-          Hasta el momento, me encuentro entusiasmada y aunque a veces llegan las frustraciones, en estos pocos meses he encontrado
-          compañeras/os que alivianan mucho esa carga y hacen de cada momento de estudio mucho más divertido!
-        </p>
-      </section>
-    </article>
+        <a href="#" class="scroll-to-top" title="Volver al inicio">
+          ↑
+        </a>
 
-    <a href="#" class="scroll-to-top" title="Volver al inicio">
-      ↑
-    </a>
-
-    <footer>
-      <p>©Copyright 2024. UNCOMA, CURZA. Monseñor Esandi y Ricardo Balbín. Viedma, Río Negro. Todos los derechos reservados.</p>
-    </footer>
-  </main>
-</body>
+        <footer>
+          <p>©Copyright 2024. UNCOMA, CURZA. Monseñor Esandi y Ricardo Balbín. Viedma, Río Negro. Todos los derechos reservados.</p>
+        </footer>
+      </main>
+    <script src="script.js"></script>
+  </body>
+</html>
