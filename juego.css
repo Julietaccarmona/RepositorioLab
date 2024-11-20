@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+header {
+    background-color: rgba(207, 10, 69, 0.747);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.carta {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.carta.flipped {
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(207, 10, 69, 0.747);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
