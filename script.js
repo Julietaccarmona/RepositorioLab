@@ -6,6 +6,7 @@ const telefonoInput = document.getElementById('POST-Telefono');
 const edadInput = document.getElementById('POST-edad');
 const direccionInput = document.getElementById('POST-direccion');
 const provinciaInput = document.getElementById('POST-provincia');
+const codigoPostalInput = document.getElementById('POST-codigoPostal');
 
 // Selección de los elementos de la tabla para actualizar
 const nombreCelda = document.getElementById('nombreCelda');
@@ -15,6 +16,7 @@ const telefonoCelda = document.getElementById('telefonoCelda');
 const edadCelda = document.getElementById('edadCelda');
 const direccionCelda = document.getElementById('direccionCelda');
 const provinciaCelda = document.getElementById('provinciaCelda');
+const codigoPostalCelda = document.getElementById('codigoPostalCelda');
 
 // Actualización automática de cada campo del formulario en la tabla
 nombreInput.addEventListener('input', () => { nombreCelda.textContent = nombreInput.value; });
@@ -24,11 +26,12 @@ telefonoInput.addEventListener('input', () => { telefonoCelda.textContent = tele
 edadInput.addEventListener('input', () => { edadCelda.textContent = edadInput.value; });
 direccionInput.addEventListener('input', () => { direccionCelda.textContent = direccionInput.value; });
 provinciaInput.addEventListener('input', () => { provinciaCelda.textContent = provinciaInput.value; });
+codigoPostalInput.addEventListener('input', () => { codigoPostalCelda.textContent = codigoPostalInput.value; });
 
 // Método preferido de contacto (radio buttons)
 document.querySelectorAll('input[name="MetodoPreferidoDeContacto"]').forEach(radio => {
     radio.addEventListener('change', () => {
-        const metodoSeleccionado = document.querySelector('input[name="MetodoPreferidoDeContacto"]:checked').nextSibling.textContent.trim();
+        const metodoSeleccionado = document.querySelector('input[name="MetodoPreferidoDeContacto"]:checked').labels[0].textContent.trim();
         document.getElementById('metodoCelda').textContent = metodoSeleccionado;
     });
 });
@@ -36,28 +39,9 @@ document.querySelectorAll('input[name="MetodoPreferidoDeContacto"]').forEach(rad
 // Tipo de suscripción (checkboxes)
 document.querySelectorAll('input[name="suscripcion[]"]').forEach(checkbox => {
     checkbox.addEventListener('change', () => {
-        const suscripciones = Array.from(document.querySelectorAll('input[name="suscripcion[]"]:checked')).map(cb => cb.nextSibling.textContent.trim());
+        const suscripciones = Array.from(document.querySelectorAll('input[name="suscripcion[]"]:checked')).map(cb => cb.labels[0].textContent.trim());
         document.getElementById('suscripcionCelda').textContent = suscripciones.join(', ');
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Acceder al botón y al CV completo
-    const cvCompleto = document.getElementById('cv-completo');
-    const botonLeerMas = document.getElementById('boton-leer-mas');
-    
-    // Asegurarse de que el botón y el CV están disponibles
-    if (cvCompleto && botonLeerMas) {
-      botonLeerMas.addEventListener('click', function() {
-        // Cambiar la visibilidad del CV completo
-        if (cvCompleto.style.display === 'none') {
-          cvCompleto.style.display = 'block';  // Mostrar el CV
-          botonLeerMas.textContent = 'Leer menos';  // Cambiar texto del botón
-        } else {
-          cvCompleto.style.display = 'none';  // Ocultar el CV
-          botonLeerMas.textContent = 'Leer más';  // Cambiar texto del botón
-        }
-      });
-    }
-  });
   
